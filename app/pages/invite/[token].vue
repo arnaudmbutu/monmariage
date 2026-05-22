@@ -395,13 +395,6 @@ onUnmounted(() => {
             </div>
           </section>
 
-          <div class="actions no-pdf" style="margin-bottom: 24px;">
-            <button class="btn" type="button" :disabled="downloadingPdf" @click="downloadPdf">
-              <Download :size="18" />
-              {{ downloadingPdf ? 'Préparation du PDF...' : 'Télécharger PDF invitation' }}
-            </button>
-          </div>
-
           <p class="eyebrow">Vous êtes invité(e)</p>
           <h2>{{ guest.full_name }}</h2>
           <p v-if="guest.nom_table" class="badge" style="margin-bottom: 14px;">Table : {{ guest.nom_table }}</p>
@@ -459,6 +452,12 @@ onUnmounted(() => {
               {{ saving ? 'Enregistrement...' : 'Enregistrer' }}
             </button>
           </form>
+          <div class="actions no-pdf" style="margin-bottom: 24px;">
+            <button class="btn" type="button" :disabled="downloadingPdf" @click="downloadPdf">
+              <Download :size="18" />
+              {{ downloadingPdf ? 'Préparation du PDF...' : 'Télécharger PDF invitation' }}
+            </button>
+          </div>
         </template>
 
         <div v-else class="empty">{{ message }}</div>

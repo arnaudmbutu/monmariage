@@ -22,7 +22,7 @@ import { ArrowRight, GlassWater, Heart, ShieldCheck, UsersRound } from 'lucide-v
         <div class="hero-grid">
           <div>
             <p class="eyebrow">Gestion d'invites de mariage</p>
-            <h1>Invitations, confirmations et boissons au meme endroit.</h1>
+            <h2>Invitations, confirmations et boissons au meme endroit.</h2>
             <p class="lead">
               Une application Nuxt pour enregistrer les invites, generer un lien personnel,
               suivre les confirmations et permettre a chaque invite de choisir sa boisson.
