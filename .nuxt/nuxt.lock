@@ -1,0 +1,9 @@
+{
+  "pid": 22164,
+  "startedAt": 1778427031109,
+  "command": "dev",
+  "cwd": "C:/Users/dell/Documents/New project",
+  "port": 3000,
+  "hostname": "::1",
+  "url": "http://[::1]:3000"
+}

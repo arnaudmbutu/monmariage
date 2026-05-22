@@ -1,0 +1,1 @@
+import{c as e}from"./DMMP4IhE.js";import{e as c}from"./B7UugZ5l.js";const r=e("LockKeyholeIcon",[["circle",{cx:"12",cy:"16",r:"1",key:"1au0dj"}],["rect",{x:"3",y:"10",width:"18",height:"12",rx:"2",key:"6s8ecr"}],["path",{d:"M7 10V7a5 5 0 0 1 10 0v3",key:"1pqi11"}]]),a=()=>c().$supabase.client;export{r as L,a as u};
