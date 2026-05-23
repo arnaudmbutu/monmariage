@@ -59,7 +59,7 @@ const programItems = [
   {
     time: '13 juin 2026 à 09h00',
     title: 'Mariage civil',
-    address: 'Avenue Antenne, sur entrée CPA, Commune de Mont-Ngafula.',
+    address: 'Avenue Kapanga, sur entrée CPA, Commune de Mont-Ngafula. Q/CPA - MUSHIE',
     reference: 'Référence : Paroisse Saint des derniers Jours.'
   },
   {
@@ -275,7 +275,6 @@ const save = async () => {
     message.value = error.message
     return
   }
-
   guest.value = data
   message.value = 'Vos informations ont été enregistrées.'
 }
